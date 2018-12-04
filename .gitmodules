@@ -7,3 +7,9 @@
 [submodule "Packages/Utils"]
 	path = Packages/Utils
 	url = git@github.com:YuriAICruz/Unity-Utils.git
+[submodule "Packages/CameraMan"]
+	path = Packages/CameraMan
+	url = git@github.com:YuriAICruz/Unity-CameraManagement.git
+[submodule "Packages/Input"]
+	path = Packages/Input
+	url = git@github.com:YuriAICruz/Unity-InputManager.git
