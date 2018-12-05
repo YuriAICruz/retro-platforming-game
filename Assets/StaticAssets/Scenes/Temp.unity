@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.4964127, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -349,11 +349,13 @@ MonoBehaviour:
     MaxStm: 1
     RecoveryRate: 1
   Speed: 5
-  Gravity: 9.8
+  Gravity: 16
   _input:
     debug: 0
     dataPath: Input/InputData
-  JumpSpeed: 10
+  JumpSpeed: 16
+  JumpTime: 0.2
+  WallJumpSpeed: 4
 --- !u!95 &429535908
 Animator:
   serializedVersion: 3
