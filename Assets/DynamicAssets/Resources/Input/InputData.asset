@@ -30,3 +30,39 @@ MonoBehaviour:
       hold: 0
       holdTime: 0
     Id: 11
+  - hint: DashStart
+    Combo:
+    - input: 32
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 1
+      hold: 0
+      holdTime: 0
+    Id: 20
+  - hint: DashEnd
+    Combo:
+    - input: 32
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 21
+  - hint: ShootHold
+    Combo:
+    - input: 8
+      betweenMaxTime: 0.37313434
+      betweenMinTime: 0.041791044
+      down: 1
+      hold: 0
+      holdTime: 0
+    Id: 30
+  - hint: ShootRelease
+    Combo:
+    - input: 8
+      betweenMaxTime: 0.49253732
+      betweenMinTime: 0.035820894
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 31
