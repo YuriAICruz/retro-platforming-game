@@ -28,7 +28,7 @@ namespace Graphene
         private void Update()
         {
             GeometryUtility.CalculateFrustumPlanes(_cam, _planes);
-            var res = GeometryUtility.TestPlanesAABB(_planes, new Bounds(transform.position, Vector3.one));
+            var res = GeometryUtility.TestPlanesAABB(_planes, GetBounds());
 
             if (!res)
             {
@@ -42,6 +42,11 @@ namespace Graphene
             }
 
             OnUpdate();
+        }
+
+        protected virtual Bounds GetBounds()
+        {
+            return new Bounds(transform.position, Vector3.one);
         }
 
         void OnDie()

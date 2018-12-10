@@ -26,11 +26,11 @@ TextureImporter:
     21300042: s4m_ur4i_8x8_metroidvania_characters_21
     21300044: s4m_ur4i_8x8_metroidvania_characters_22
     21300046: s4m_ur4i_8x8_metroidvania_characters_23
-    21300048: s4m_ur4i_8x8_metroidvania_characters_24
-    21300050: s4m_ur4i_8x8_metroidvania_characters_25
-    21300052: s4m_ur4i_8x8_metroidvania_characters_26
-    21300054: s4m_ur4i_8x8_metroidvania_characters_27
-    21300056: s4m_ur4i_8x8_metroidvania_characters_28
+    21300048: Enemy_0
+    21300050: Enemy_1
+    21300052: Enemy_2
+    21300054: Enemy_3
+    21300056: Enemy_4
     21300058: s4m_ur4i_8x8_metroidvania_characters_29
     21300060: s4m_ur4i_8x8_metroidvania_characters_30
     21300062: s4m_ur4i_8x8_metroidvania_characters_31
@@ -732,15 +732,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_24
+      name: Enemy_0
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -752,15 +752,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_25
+      name: Enemy_1
       rect:
         serializedVersion: 2
         x: 16
         y: 192
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -772,15 +772,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_26
+      name: Enemy_2
       rect:
         serializedVersion: 2
         x: 32
         y: 192
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -792,15 +792,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_27
+      name: Enemy_3
       rect:
         serializedVersion: 2
         x: 48
         y: 192
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -812,15 +812,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_28
+      name: Enemy_4
       rect:
         serializedVersion: 2
         x: 64
         y: 192
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

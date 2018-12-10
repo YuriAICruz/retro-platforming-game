@@ -52,13 +52,16 @@ namespace Graphene
             Debug.Log("StartGame");
             GameStart?.Invoke();
 
-            SceneManager.LoadScene(1);
 
             StartCoroutine(LocatePlayer());
         }
 
         IEnumerator LocatePlayer()
         {
+            yield return new WaitForSeconds(1.2f);
+            
+            SceneManager.LoadScene(1);
+            
             yield return null;
 
             while (_actor == null)

@@ -7,10 +7,8 @@ namespace Graphene.Enemies
     {
         private IWeapon _weapon;
         
-
         private Renderer[] _renderers;
         private Collider2D _collider;
-        
 
         public float ShootTime = 1, Delay;
 

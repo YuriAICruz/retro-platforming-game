@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 616fd9776aab484889d36794ba65c9c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletCount: 5
+  BulletCount: 3
   BulletSpeed: 8
   Tip: {x: -1, y: 0, z: 0}
+  _bulletResource: Bullet_A
