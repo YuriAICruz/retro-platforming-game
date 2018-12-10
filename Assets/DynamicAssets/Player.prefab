@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 95486469480875606}
   - component: {fileID: 114003103341689684}
   - component: {fileID: 114340232187439364}
+  - component: {fileID: 82504914494874766}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -112,7 +113,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1844657826926628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15, y: -9, z: 0}
+  m_LocalPosition: {x: -12, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4044107450865114}
@@ -128,7 +129,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1312266489197408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.068, y: 0.677, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4184189674145966}
@@ -169,6 +170,101 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.6}
   m_Size: {x: 0.65, y: 1.2}
   m_Direction: 0
+--- !u!82 &82504914494874766
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1844657826926628}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.6
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95486469480875606
 Animator:
   serializedVersion: 3
@@ -201,11 +297,22 @@ MonoBehaviour:
   Id: 0
   Life:
     Hp: 0
-    MaxHp: 1
+    MaxHp: 10
   Stamina:
     Stm: 0
     MaxStm: 1
     RecoveryRate: 1
+  Sfx:
+    JumpClip: {fileID: 8300000, guid: ea833a668097d8646a44878174fef848, type: 3}
+    SlidingClip: {fileID: 0}
+    ReboundClip: {fileID: 8300000, guid: 9cecf46bd857ba74e9715204fd24ebee, type: 3}
+    DashClip: {fileID: 8300000, guid: aa94674ebbce62748b7880fc903a631a, type: 3}
+    ShootClip: {fileID: 8300000, guid: 76752ed6cb7fce341b229b9b8f77a8ff, type: 3}
+    DamageClip: {fileID: 8300000, guid: 405f2a491ccabe244addd257c5542910, type: 3}
+    DieClip: {fileID: 8300000, guid: de5f7cbdf140e0e428e6e0e90874a378, type: 3}
+    ChargeClip: {fileID: 8300000, guid: c61f962e07a5b2047bfbc31ce7e0d339, type: 3}
+    CollectClip: {fileID: 8300000, guid: b33eb1c73c78b8e4589cf9b7382de08c, type: 3}
+    Source: {fileID: 82504914494874766}
   Speed: 8
   Gravity: 29.4
   WallSlide: -4
@@ -223,8 +330,8 @@ MonoBehaviour:
   DashSpeed: 20
   DashDuration: 0.2
   ChargeTime: 1
-  ChargeReboundTime: 0
-  ChargeReboundDuration: 0
+  ChargeReboundTime: 0.2
+  ChargeReboundDuration: 0.1
   YKill: -100
 --- !u!114 &114340232187439364
 MonoBehaviour:

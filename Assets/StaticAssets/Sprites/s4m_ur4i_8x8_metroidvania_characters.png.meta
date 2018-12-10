@@ -23,7 +23,7 @@ TextureImporter:
     21300036: s4m_ur4i_8x8_metroidvania_characters_18
     21300038: s4m_ur4i_8x8_metroidvania_characters_19
     21300040: s4m_ur4i_8x8_metroidvania_characters_20
-    21300042: s4m_ur4i_8x8_metroidvania_characters_21
+    21300042: Turret
     21300044: s4m_ur4i_8x8_metroidvania_characters_22
     21300046: s4m_ur4i_8x8_metroidvania_characters_23
     21300048: Enemy_0
@@ -126,6 +126,7 @@ TextureImporter:
     21300242: Character_Glow_0
     21300244: Character_Glow_1
     21300246: Character_Glow_2
+    21300248: Turret_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -672,15 +673,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_21
+      name: Turret
       rect:
         serializedVersion: 2
         x: 80
         y: 208
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2667,6 +2668,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6010ec6b24ab3ef42a3556060d56d0a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a659c57a27605954db062afc997d9b4b
       vertices: []
       indices: 
       edges: []

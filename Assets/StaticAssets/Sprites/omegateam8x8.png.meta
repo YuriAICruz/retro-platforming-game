@@ -813,11 +813,11 @@ TextureImporter:
     21301616: omegateam__808
     21301618: omegateam__809
     21301620: omegateam__810
-    21301622: omegateam__811
+    21301622: Platform_C
     21301624: omegateam__812
-    21301626: omegateam__813
-    21301628: omegateam__814
-    21301630: omegateam__815
+    21301626: Level_0_C_0
+    21301628: Level_0_C_1
+    21301630: Level_0_C_2
     21301632: omegateam__816
     21301634: omegateam__817
     21301636: omegateam__818
@@ -831,7 +831,7 @@ TextureImporter:
     21301652: omegateam__826
     21301654: omegateam__827
     21301656: omegateam__828
-    21301658: omegateam__829
+    21301658: Paltcorm_E
     21301660: omegateam__830
     21301662: omegateam__831
     21301664: omegateam__832
@@ -879,9 +879,9 @@ TextureImporter:
     21301748: omegateam__874
     21301750: omegateam__875
     21301752: omegateam__876
-    21301754: omegateam__877
-    21301756: omegateam__878
-    21301758: omegateam__879
+    21301754: Level_0_C_3
+    21301756: Level_0_C_4
+    21301758: Level_0_C_5
     21301760: omegateam__880
     21301762: omegateam__881
     21301764: omegateam__882
@@ -943,9 +943,9 @@ TextureImporter:
     21301876: omegateam__938
     21301878: omegateam__939
     21301880: omegateam__940
-    21301882: omegateam__941
-    21301884: omegateam__942
-    21301886: omegateam__943
+    21301882: Level_0_C_6
+    21301884: Level_0_C_7
+    21301886: Level_0_C_8
     21301888: omegateam__944
     21301890: omegateam__945
     21301892: omegateam__946
@@ -1605,10 +1605,10 @@ TextureImporter:
     21303200: omegateam__1600
     21303202: omegateam__1601
     21303204: omegateam__1602
-    21303206: omegateam__1603
-    21303208: omegateam__1604
+    21303206: Level_0_B_0
+    21303208: Level_0_B_1
     21303210: omegateam__1605
-    21303212: omegateam__1606
+    21303212: Level_0_B_2
     21303214: omegateam__1607
     21303216: omegateam__1608
     21303218: omegateam__1609
@@ -1669,10 +1669,10 @@ TextureImporter:
     21303328: omegateam__1664
     21303330: omegateam__1665
     21303332: omegateam__1666
-    21303334: omegateam__1667
-    21303336: omegateam__1668
+    21303334: Level_0_B_3
+    21303336: Level_0_B_4
     21303338: omegateam__1669
-    21303340: omegateam__1670
+    21303340: Level_0_B_5
     21303342: omegateam__1671
     21303344: omegateam__1672
     21303346: omegateam__1673
@@ -1733,9 +1733,9 @@ TextureImporter:
     21303456: omegateam__1728
     21303458: omegateam__1729
     21303460: omegateam__1730
-    21303462: omegateam__1731
-    21303464: omegateam__1732
-    21303466: omegateam__1733
+    21303462: Level_0_B_7
+    21303464: Level_0_B_8
+    21303466: Level_0_B_9
     21303468: omegateam__1734
     21303470: omegateam__1735
     21303472: omegateam__1736
@@ -1744,7 +1744,7 @@ TextureImporter:
     21303478: omegateam__1739
     21303480: omegateam__1740
     21303482: omegateam__1741
-    21303484: omegateam__1742
+    21303484: Platform_A
     21303486: omegateam__1743
     21303488: omegateam__1744
     21303490: omegateam__1745
@@ -2043,7 +2043,7 @@ TextureImporter:
     21304076: omegateam__2038
     21304078: omegateam__2039
     21304080: omegateam__2040
-    21304082: omegateam__2041
+    21304082: Platform_F
     21304084: omegateam__2042
     21304086: omegateam__2043
     21304088: omegateam__2044
@@ -18175,7 +18175,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__811
+      name: Platform_C
       rect:
         serializedVersion: 2
         x: 160
@@ -18215,7 +18215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__813
+      name: Level_0_C_0
       rect:
         serializedVersion: 2
         x: 176
@@ -18235,7 +18235,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__814
+      name: Level_0_C_1
       rect:
         serializedVersion: 2
         x: 184
@@ -18255,7 +18255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__815
+      name: Level_0_C_2
       rect:
         serializedVersion: 2
         x: 192
@@ -18535,7 +18535,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__829
+      name: Paltcorm_E
       rect:
         serializedVersion: 2
         x: 304
@@ -19495,7 +19495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__877
+      name: Level_0_C_3
       rect:
         serializedVersion: 2
         x: 176
@@ -19515,7 +19515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__878
+      name: Level_0_C_4
       rect:
         serializedVersion: 2
         x: 184
@@ -19535,7 +19535,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__879
+      name: Level_0_C_5
       rect:
         serializedVersion: 2
         x: 192
@@ -20775,7 +20775,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__941
+      name: Level_0_C_6
       rect:
         serializedVersion: 2
         x: 176
@@ -20795,7 +20795,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__942
+      name: Level_0_C_7
       rect:
         serializedVersion: 2
         x: 184
@@ -20815,7 +20815,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__943
+      name: Level_0_C_8
       rect:
         serializedVersion: 2
         x: 192
@@ -34015,7 +34015,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1603
+      name: Level_0_B_0
       rect:
         serializedVersion: 2
         x: 352
@@ -34035,7 +34035,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1604
+      name: Level_0_B_1
       rect:
         serializedVersion: 2
         x: 360
@@ -34075,7 +34075,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1606
+      name: Level_0_B_2
       rect:
         serializedVersion: 2
         x: 376
@@ -35295,7 +35295,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1667
+      name: Level_0_B_3
       rect:
         serializedVersion: 2
         x: 352
@@ -35315,7 +35315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1668
+      name: Level_0_B_4
       rect:
         serializedVersion: 2
         x: 360
@@ -35355,7 +35355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1670
+      name: Level_0_B_5
       rect:
         serializedVersion: 2
         x: 376
@@ -36575,7 +36575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1731
+      name: Level_0_B_7
       rect:
         serializedVersion: 2
         x: 352
@@ -36595,7 +36595,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1732
+      name: Level_0_B_8
       rect:
         serializedVersion: 2
         x: 360
@@ -36615,7 +36615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1733
+      name: Level_0_B_9
       rect:
         serializedVersion: 2
         x: 368
@@ -36795,7 +36795,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__1742
+      name: Platform_A
       rect:
         serializedVersion: 2
         x: 440
@@ -42775,7 +42775,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: omegateam__2041
+      name: Platform_F
       rect:
         serializedVersion: 2
         x: 272

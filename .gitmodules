@@ -19,3 +19,6 @@
 [submodule "Packages/Json"]
 	path = Packages/Json
 	url = git@gitlab.com:yuriaicruz/jsonNet.git
+[submodule "Packages/Behavior"]
+	path = Packages/Behavior
+	url = git@github.com:YuriAICruz/Unity-Behaviour-Tree.git

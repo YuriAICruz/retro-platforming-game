@@ -97,7 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6df09f64a3452b9d44f9f0d477196b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Life:
+    Hp: 0
+    MaxHp: 1
   ShootTime: 1.8
+  Delay: 0
   ShootDirection: {x: -1, y: 0}
   _weaponResource: Standing_Weapon
 --- !u!212 &212123624404546428
@@ -135,7 +139,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21301256, guid: a39e0e35ed270df4999356f3ce24b564, type: 3}
+  m_Sprite: {fileID: 21300248, guid: 2641e8359b77a764d9cbcae62b9f8818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
