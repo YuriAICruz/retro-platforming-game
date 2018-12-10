@@ -14,10 +14,10 @@ TextureImporter:
     21300018: Shoot_5
     21300020: Shoot_6
     21300022: s4m_ur4i_8x8_metroidvania_characters_11
-    21300024: s4m_ur4i_8x8_metroidvania_characters_12
-    21300026: s4m_ur4i_8x8_metroidvania_characters_13
-    21300028: s4m_ur4i_8x8_metroidvania_characters_14
-    21300030: s4m_ur4i_8x8_metroidvania_characters_15
+    21300024: Anim_0
+    21300026: Anim_1
+    21300028: Anim_2
+    21300030: Anim_3
     21300032: s4m_ur4i_8x8_metroidvania_characters_16
     21300034: s4m_ur4i_8x8_metroidvania_characters_17
     21300036: s4m_ur4i_8x8_metroidvania_characters_18
@@ -105,9 +105,9 @@ TextureImporter:
     21300200: Character_Standing
     21300202: s4m_ur4i_8x8_metroidvania_characters_101
     21300204: s4m_ur4i_8x8_metroidvania_characters_102
-    21300206: s4m_ur4i_8x8_metroidvania_characters_103
-    21300208: s4m_ur4i_8x8_metroidvania_characters_104
-    21300210: s4m_ur4i_8x8_metroidvania_characters_105
+    21300206: Character_Die_2
+    21300208: Character_Die_1
+    21300210: Character_Die_0
     21300212: s4m_ur4i_8x8_metroidvania_characters_106
     21300214: s4m_ur4i_8x8_metroidvania_characters_107
     21300216: Character_Hit
@@ -123,6 +123,9 @@ TextureImporter:
     21300236: Character_Shooting_Walk_03
     21300238: Blank
     21300240: Shoot_A_2
+    21300242: Character_Glow_0
+    21300244: Character_Glow_1
+    21300246: Character_Glow_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -489,7 +492,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_12
+      name: Anim_0
       rect:
         serializedVersion: 2
         x: 64
@@ -509,7 +512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_13
+      name: Anim_1
       rect:
         serializedVersion: 2
         x: 80
@@ -529,7 +532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_14
+      name: Anim_2
       rect:
         serializedVersion: 2
         x: 96
@@ -549,10 +552,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_15
+      name: Anim_3
       rect:
         serializedVersion: 2
-        x: 112
+        x: 110
         y: 224
         width: 16
         height: 16
@@ -2309,7 +2312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_103
+      name: Character_Die_2
       rect:
         serializedVersion: 2
         x: 48
@@ -2329,7 +2332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_104
+      name: Character_Die_1
       rect:
         serializedVersion: 2
         x: 64
@@ -2349,7 +2352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: s4m_ur4i_8x8_metroidvania_characters_105
+      name: Character_Die_0
       rect:
         serializedVersion: 2
         x: 80
@@ -2597,13 +2600,73 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 41319d882159dec458fd757ffbf93d6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Glow_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c13587ba41b29e448ceba5f884d9f13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Glow_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c711b4af86f925448877706cd7a37dd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Glow_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6010ec6b24ab3ef42a3556060d56d0a8
       vertices: []
       indices: 
       edges: []

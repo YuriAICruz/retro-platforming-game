@@ -12,6 +12,7 @@ namespace Graphene.Enemies
         private void Awake()
         {
             _collider = GetComponent<Collider2D>();
+            _collider.isTrigger = true;
         }
 
         private void OnTriggerEnter2D(Collider2D other)

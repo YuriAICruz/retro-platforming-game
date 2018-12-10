@@ -33,8 +33,8 @@ MonoBehaviour:
   - hint: DashStart
     Combo:
     - input: 32
-      betweenMaxTime: 1.2
-      betweenMinTime: 0.2
+      betweenMaxTime: 1.0181818
+      betweenMinTime: 0.018181816
       down: 1
       hold: 0
       holdTime: 0
@@ -42,8 +42,8 @@ MonoBehaviour:
   - hint: DashEnd
     Combo:
     - input: 32
-      betweenMaxTime: 1.2
-      betweenMinTime: 0.2
+      betweenMaxTime: 1.0121212
+      betweenMinTime: 0.012121215
       down: 0
       hold: 0
       holdTime: 0

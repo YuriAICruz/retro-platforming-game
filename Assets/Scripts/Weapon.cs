@@ -13,7 +13,7 @@ namespace Graphene
         public Vector3 Tip;
         [SerializeField] private string _bulletResource = "Bullet_A";
 
-        public void Awake ()
+        public void Start()
         {
             _bullets = new IProjectile[BulletCount];
 
@@ -24,6 +24,11 @@ namespace Graphene
                 tmp.transform.localPosition = Tip;
                 _bullets[i] = tmp;
             }
+        }
+
+        public void SetTip(Vector3 shootDirection)
+        {
+            Tip = shootDirection;
         }
 
         IProjectile GetNextBullet()

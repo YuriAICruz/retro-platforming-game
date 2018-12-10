@@ -13,3 +13,9 @@
 [submodule "Packages/Input"]
 	path = Packages/Input
 	url = git@github.com:YuriAICruz/Unity-InputManager.git
+[submodule "Packages/GameMan"]
+	path = Packages/GameMan
+	url = git@github.com:YuriAICruz/Unity-Gamemanager.git
+[submodule "Packages/Json"]
+	path = Packages/Json
+	url = git@gitlab.com:yuriaicruz/jsonNet.git

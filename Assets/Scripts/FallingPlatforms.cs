@@ -3,35 +3,27 @@ using Graphene.Acting;
 
 namespace Graphene
 {
-    public class MovingPlatform : MonoBehaviour
+    public class FallingPlatforms : ScreenSensitiveObject
     {
-        public Vector3 From, To;
-        private float _t = 0;
         public float Delay, Speed;
         private float _distance;
         private float _iniTime;
 
-        private void Start()
-        {
-            From = transform.TransformPoint(From);
-            To = transform.TransformPoint(To);
-            _distance = (From - To).magnitude;
 
-            _iniTime = Time.time;
-        }
-
-        void Update()
+        protected override void OnUpdate()
         {
-            if (Time.time <= _iniTime + Delay) return;
+            if (!_init || Time.time <= _iniTime + Delay) return;
             
-            _t += Time.deltaTime;
-            transform.position = Vector3.Lerp(From, To, Mathf.Sin(_t * Speed * Mathf.PI) * 0.5f + 0.5f);
+            transform.Translate(Vector3.down * Speed*Time.deltaTime);
         }
 
         private void OnCollisionEnter2D(Collision2D other)
         {
             var actor = other.collider.GetComponent<Actor>();
+            
             if (actor != null && actor.transform.position.y < transform.position.y) return;
+
+            _iniTime = Time.time;
 
             actor.transform.SetParent(transform);
         }
@@ -43,6 +35,7 @@ namespace Graphene
         private void OnCollisionExit2D(Collision2D other)
         {
             var actor = other.collider.GetComponent<Actor>();
+            
             if (actor == null) return;
 
             actor.transform.SetParent(null);

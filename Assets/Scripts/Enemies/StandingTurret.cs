@@ -1,30 +1,44 @@
-﻿using System.Runtime.InteropServices;
-using UnityEngine;
+﻿using UnityEngine;
 using Graphene.Acting.Interfaces;
 
 namespace Graphene.Enemies
 {
-    public class StandingTurret : MonoBehaviour, IDamageble
+    public class StandingTurret : ScreenSensitiveObject, IDamageble
     {
         private IWeapon _weapon;
+        
 
-        public float ShootTime = 1;
+        private Renderer[] _renderers;
+        private Collider2D _collider;
+        
+
+        public float ShootTime = 1, Delay;
 
         public Vector2 ShootDirection;
-        
+
         [SerializeField] private string _weaponResource = "Standing_Weapon";
 
         float _t = 0;
+        protected float _iniTime;
 
-        private void Awake()
+        protected override void OnAwake()
         {
             var w = Instantiate(Resources.Load<Weapon>(_weaponResource), transform);
             w.transform.localPosition = Vector3.zero;
             _weapon = w;
+
+            _weapon.SetTip(new Vector3(ShootDirection.x, ShootDirection.y));
+            
+            _renderers = GetComponentsInChildren<Renderer>();
+            _collider = GetComponent<Collider2D>();
         }
 
-        private void Update()
+        protected override void OnUpdate()
         {
+            if (Time.time <= _iniTime + Delay) return;
+
+            if (!_init) return;
+
             _t += Time.deltaTime;
 
             if (_t >= ShootTime)
@@ -36,7 +50,28 @@ namespace Graphene.Enemies
 
         public void DoDamage(int damage, Vector3 from)
         {
-            Debug.Log($"DoDamage: {damage} - {gameObject}");
+            Life.ReceiveDamage(damage);
+        }
+        
+        protected override void Deinit()
+        {
+            base.Deinit();
+            foreach (var rend in _renderers)
+            {
+                rend.enabled = false;
+            }
+            _collider.enabled = false;
+        }
+
+        protected override void Init()
+        {
+            base.Init();
+            foreach (var rend in _renderers)
+            {
+                rend.enabled = true;
+            }
+            _collider.enabled = true;
+            _iniTime = Time.time;
         }
     }
 }
